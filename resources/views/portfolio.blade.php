@@ -19,7 +19,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="assets/css/resume.min.css" rel="stylesheet">
+    <link href="{{ asset('assets/css/resume.min.css') }}" rel="stylesheet">
 
     <!--Icon Bootstrap-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -32,7 +32,7 @@
       <a class="navbar-brand js-scroll-trigger" href="#page-top" style="margin-left: 10px;">
         <span class="d-block d-lg-none">Welcome</span>
         <span class="d-none d-lg-block" style="margin-left: 16px; ">
-          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.webp" alt="">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{{ asset('assets/img/profile.webp') }}" alt="">
         </span>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -241,7 +241,7 @@
           <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
               <div class="card hover-expand">
-                <img src="assets/img/pulauwesi.webp" class="card-img-top img-fixed" alt="Card 1" loading="lazy">
+                <img src="{{ asset('assets/img/pulauwesi.webp') }}" class="card-img-top img-fixed" alt="Card 1" loading="lazy">
                 <div class="card-body">
                   <h5 class="card-title">Pulauwesi</h5>
                   <p class="card-text" style="color: #868e96;">Gateway to discovering and exploring the diverse islands of Sulawesi</p>
@@ -250,7 +250,7 @@
             </div>
             <div class="col">
               <div class="card hover-expand">
-                <img src="assets/img/others.ts.webp" class="card-img-top img-fixed" alt="Card 2" loading="lazy">
+                <img src="{{ asset('assets/others.ts.webp') }}" class="card-img-top img-fixed" alt="Card 2" loading="lazy">
                 <div class="card-body">
                   <h5 class="card-title">Others.ts</h5>
                   <p class="card-text" style="color: #868e96;">A platform to brings unique stories from diverse voices within the SMK Telkom Makassar community</p>
@@ -259,7 +259,7 @@
             </div>
             <div class="col">
               <div class="card hover-expand">
-                <img src="assets/img/questlist.webp" class="card-img-top img-fixed" alt="Card 3" loading="lazy">
+                <img src="{{ asset('assets/img/questlist.webp') }}" class="card-img-top img-fixed" alt="Card 3" loading="lazy">
                 <div class="card-body">
                   <h5 class="card-title">QuestList</h5>
                   <p class="card-text" style="color: #868e96;">Turn everyday tasks into exciting challenges and earn real-world rewards</p>
@@ -277,7 +277,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer></script>
 
     <!-- Custom scripts for this template -->
-    <script src="assets/js/resume.min.js" defer></script>
+    <script src="{{ asset('assets/js/resume.min.js') }}" defer></script>
 
   </body>
 

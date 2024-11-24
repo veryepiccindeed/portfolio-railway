@@ -250,7 +250,7 @@
             </div>
             <div class="col">
               <div class="card hover-expand">
-                <img src="{{ asset('assets/others.ts.webp') }}" class="card-img-top img-fixed" alt="Card 2" loading="lazy">
+                <img src="{{ asset('assets/img/others.ts.webp') }}" class="card-img-top img-fixed" alt="Card 2" loading="lazy">
                 <div class="card-body">
                   <h5 class="card-title">Others.ts</h5>
                   <p class="card-text" style="color: #868e96;">A platform to brings unique stories from diverse voices within the SMK Telkom Makassar community</p>

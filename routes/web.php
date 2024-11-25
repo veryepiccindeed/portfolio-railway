@@ -16,9 +16,3 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('portfolio');
 });
-
-Route::prefix('/api/v1')->group(function(){
-    Route::get('/hello', function(){
-        return("Hello-world");
-    });
-});
